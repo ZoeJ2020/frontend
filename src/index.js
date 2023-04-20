@@ -8,8 +8,6 @@ import NoPage from "./pages/NoPage";
 
 export default function App() {
   return (
-    <>
-    <h1>Test</h1>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -20,7 +18,6 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-    </>
   );
 }
 
