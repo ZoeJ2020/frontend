@@ -1,0 +1,27 @@
+/* These are the main styles that will be used across the whole application */
+/* Fonts, colours, sizes, media queries etc. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Open+Sans:wght@400;600;700&display=swap');
+
+:root{
+/* colour scheme */
+--textCol: #192340;
+--accent1aCol: #63bf84;
+--accent1bCol: #A7D9B8;
+--accent2Col: #FF5944;
+--bodyCol: #F2F2F2;
+--underlineCol: #FFA0A0;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--textCol);
+    border-bottom: var(--underlineCol) 3.5px solid;
+    margin: auto;
+    padding-bottom: 7px;
+    width: fit-content;
+}
+/* fonts */
+
+/* font sizes */
